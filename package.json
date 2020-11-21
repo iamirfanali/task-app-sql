@@ -1,0 +1,27 @@
+{
+  "name": "task-app-sql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "env-cmd ./config/dev.env nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "env-cmd": "^8.0.2",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "pg": "^8.4.2",
+    "sequelize": "^6.3.5",
+    "sharp": "^0.26.2",
+    "validator": "^13.1.17"
+  }
+}
